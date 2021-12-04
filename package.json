@@ -2,7 +2,7 @@
   "name": "dom",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Zicio/DOM.git",
+  "repository": "https://github.com/Zicio/Credit-Card-Validator.git",
   "author": "Alexander Burachkov <zicio@yandex.ru>",
   "license": "MIT",
   "scripts": {

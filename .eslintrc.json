@@ -12,8 +12,6 @@
       "WithStatement"
     ],
     "no-unused-vars": "off",
-    "no-unused-expressions": "warn",
-    "no-alert": "warn",
-    "no-restricted-globals": "warn"
+    "no-unused-expressions": "warn"
   }
 }

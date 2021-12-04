@@ -23,7 +23,6 @@ export default class Determiner {
     if (this.number.match(/^35([2-8]?[0-9]?)/)) {
       return 'card__jcb';
     }
-
     return null;
   }
 }
