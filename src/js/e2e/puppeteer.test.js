@@ -22,7 +22,7 @@ describe('Credit card validator', () => {
       await page.goto(baseUrl);
       const form = await page.$('.check');
       const input = await form.$('.check__field');
-      await input.type('4532656374904488');
+      input.value = '4532656374904488';
       const submit = await form.$('.check__button');
       submit.click();
       await page.waitForSelector('.success-active');
