@@ -16,7 +16,8 @@ module.exports = merge(common, {
         name: 'chrome',
       },
     },
-    port: 8080,
+    port: 9000,
+    hot: true,
   },
 
   plugins: [
