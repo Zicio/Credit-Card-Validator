@@ -7,7 +7,7 @@ describe('Credit card validator', () => {
   const baseUrl = 'https://localhost:9000';
   beforeAll(async () => {
     browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       slowMo: 100,
       devtools: true,
     });
