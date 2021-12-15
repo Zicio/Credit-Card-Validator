@@ -5306,10 +5306,10 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-puppeteer@^12.0.1:
-  version "12.0.1"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-12.0.1.tgz#ae79d0e174a07563e0bf2e05c94ccafce3e70033"
-  integrity sha512-YQ3GRiyZW0ddxTW+iiQcv2/8TT5c3+FcRUCg7F8q2gHqxd5akZN400VRXr9cHQKLWGukmJLDiE72MrcLK9tFHQ==
+puppeteer-core@^13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-13.0.0.tgz#5a8307ca16a7ee325ec5d6e41bd89895951a0ea9"
+  integrity sha512-JJvGCuUNpONaFK/1tizyVthfqkEaiTCteL9HkdxN3//P9cVa+YnehlKIoJCStiKRaa3CjRu/dIJftA5XJ2EGrQ==
   dependencies:
     debug "4.3.2"
     devtools-protocol "0.0.937139"
