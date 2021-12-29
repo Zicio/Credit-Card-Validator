@@ -1,4 +1,4 @@
-import puppeteer from 'puppeteer-core';
+import puppeteer from 'puppeteer';
 
 jest.setTimeout(30000);
 describe('Credit card validator', () => {
@@ -10,7 +10,6 @@ describe('Credit card validator', () => {
       headless: true,
       slowMo: 100,
       devtools: true,
-      channel: 'chrome',
     });
     page = await browser.newPage();
   });
