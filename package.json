@@ -47,7 +47,4 @@
   "dependencies": {
     "core-js": "3"
   }
-  // "jest": {
-  //   "testEnvironment": "jsdom"
-  // }
 }
