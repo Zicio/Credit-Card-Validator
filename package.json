@@ -13,7 +13,7 @@
     "test": "jest --testPathPattern=./src/js/__tests__/",
     "coverage": "jest --testPathPattern=./src/js/__tests__/ --coverage",
     "e2e": "jest --testPathPattern=./src/js/e2e/ --runInBand",
-    "ci": "start-server-and-test 'yarn start-server' http://localhost:9000 'yarn e2e'",
+    "ci": "start-server-and-test 'yarn start-server' 'yarn e2e'",
     "doc": "jsdoc -c jsdoc.conf.json",
     "preshow:coverage": "npm run coverage",
     "show:coverage": "live-server coverage/lcov-report",
